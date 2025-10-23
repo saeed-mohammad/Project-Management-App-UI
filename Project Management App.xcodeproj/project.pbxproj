@@ -6,14 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		80813BBA2EAA73D7001D3A5B /* ReadMe.md in Resources */ = {isa = PBXBuildFile; fileRef = 80813BB92EAA73D7001D3A5B /* ReadMe.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		80813B972EA7C5C0001D3A5B /* Project Management App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Management App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80813BB92EAA73D7001D3A5B /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		80813B992EA7C5C0001D3A5B /* Project Management App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Project Management App";
+			sourceTree = "<group>";
+		};
+		80813BBF2EAA756B001D3A5B /* ScreenShots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +42,8 @@
 		80813B8E2EA7C5C0001D3A5B = {
 			isa = PBXGroup;
 			children = (
+				80813BB92EAA73D7001D3A5B /* ReadMe.md */,
+				80813BBF2EAA756B001D3A5B /* ScreenShots */,
 				80813B992EA7C5C0001D3A5B /* Project Management App */,
 				80813B982EA7C5C0001D3A5B /* Products */,
 			);
@@ -62,6 +74,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				80813B992EA7C5C0001D3A5B /* Project Management App */,
+				80813BBF2EAA756B001D3A5B /* ScreenShots */,
 			);
 			name = "Project Management App";
 			packageProductDependencies = (
@@ -109,6 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80813BBA2EAA73D7001D3A5B /* ReadMe.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

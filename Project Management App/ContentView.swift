@@ -9,13 +9,41 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+       NavigationStack {
+          ZStack{
+             TabView{
+                HomeScreen()
+                   .tabItem {
+                      Image(systemName: "house.fill")
+                   }
+                Text("the content")
+                   .tabItem {
+                      Image(systemName: "folder.fill")
+                   }
+                Text("content")
+                   .tabItem {
+                      Image(systemName: "doc.plaintext.fill")
+                   }
+                Text("calender")
+                   .tabItem {
+                      Image(systemName: "calendar")
+                   }
+             }
+             .accentColor(.black)
+          }
+          .toolbar {
+              ToolbarItemGroup(placement: .navigationBarLeading) {
+                      CircularImage(profileName: "profile", size: 40)
+                      Text("Hi, Kira!")
+                          .foregroundStyle(.gray)
+                          .font(.footnote)
+                          .fixedSize()
+              }
+              ToolbarItem(placement: .navigationBarTrailing) {
+                  Image(systemName: "bell.fill")
+              }
+          }
+       }
     }
 }
 
