@@ -40,8 +40,11 @@ This app demonstrates clean layout design, tab navigation, reusable components, 
 ## 📸 Screenshot
 
 Here’s the preview of the Home Screen UI:
-
-![Home Screen](screenshots/homeScreen.png)
+<p align="center">
+  <img src="ScreenShots/homeScreen.png" width="300" />
+  <br/>
+  <em>Home Screen Preview</em>
+</p>
 
 ---
 
